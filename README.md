@@ -1,19 +1,12 @@
 City Pantry JS Coding Test
 ==========================
 
-Tasks:
+This repository contains the files providen as solution to City Paintry Coding test, makes use of node, angular, bootstrap and City Pantry's library.
 
-* Install the packages defined in `package.json`.
-* Create a .gitignore file with any rules you feel would be appropriate.
-* Edit the file `your-code.js` to use `PackagesFactory.searchPackages` to use our API to search for  
-  burritos that can be delivered to the Houses of Parliament in London. That method can be found  
-  here:  
-  https://github.com/CityPantry/citypantry-js-lib/blob/ef71f2c577833c31cc68e2e7f9fa526e54f381a2/src/factories/PackagesFactory.js#L31
-* Display photos of each of our meal packages that are returned in `index.html`.
+Requirements: 
+NodeJs must be installed and configured to run the unit tests and the project easily, otherwise get your favorite browser (please not an old one without modern js support, eh!)
 
-Bonus points for:
+Running:
+Either publish the files in a web server or run the following command in a terminal inside the project's folder 'npm start-test' , this will execute the test suite and run a local web server. Usually after a successful execution the server should be published at port 8000 being accessible through 'http://localhost:8000'.
 
-* Writing unit tests.
-
-Once you have finished, email amy@citypantry.com with your code either as an email attachment  
-or as a link to a GitHub repository with your solution.
+Also 'npm start' may be used to run the server only without passing the test or 'npm test' may be used to run the tests only. 
